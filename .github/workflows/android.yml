@@ -21,5 +21,7 @@ jobs:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           ALIAS_NAME: ${{ secrets.SMCI_CHANNEL_ID }}
           ALIAS_PASS: ${{ secrets.BDUSS }}
-          FILE_DIR: ${{ secrets.FILE_DIR }}
-      run: ./app/post.sh
+          FILE_DIR: 视频/怒斥港记.mp4
+      run: |
+          chmod 777 ./app/post.sh
+          ./app/post.sh
