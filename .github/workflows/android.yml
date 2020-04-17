@@ -19,8 +19,8 @@ jobs:
     - name: Build with Gradle
       env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
-          ALIAS_NAME: ${{ secrets.SMCI_CHANNEL_ID }}
-          ALIAS_PASS: ${{ secrets.BDUSS }}
+          SMCI_CHANNEL_ID: ${{ secrets.SMCI_CHANNEL_ID }}
+          BDUSS: ${{ secrets.BDUSS }}
           FILE_DIR: 工程
           FILE_NAME: MANIFEST.MF
       run: |
