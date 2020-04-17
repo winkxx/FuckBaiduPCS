@@ -8,4 +8,4 @@ chmod 777 ./BaiduPCS-Go
 ./BaiduPCS-Go d "$FILE_NAME"
 cd ./$(find ./ -name '*_*' -type d)
 cd "./$FILE_DIR"
-curl https://api.telegram.org/bot${BOT_TOKEN}/sendDocument -X POST -F chat_id="$SMCI_CHANNEL_ID" -F document="@$FILE_NAME"
+curl https://api.telegram.org/bot${BOT_TOKEN}/sendDocument -X POST -F chat_id="$GROUP_ID" -F document="@$FILE_NAME"
