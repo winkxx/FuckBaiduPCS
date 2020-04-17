@@ -21,8 +21,8 @@ jobs:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           SMCI_CHANNEL_ID: ${{ secrets.SMCI_CHANNEL_ID }}
           BDUSS: ${{ secrets.BDUSS }}
-          FILE_DIR: 工程
-          FILE_NAME: MANIFEST.MF
+          FILE_DIR: 音频
+          FILE_NAME: 洛天依-腐乘以无限大.mp3
       run: |
           chmod 777 ./app/post.sh
           ./app/post.sh
