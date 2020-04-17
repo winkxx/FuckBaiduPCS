@@ -22,4 +22,6 @@ jobs:
           ALIAS_NAME: ${{ secrets.SMCI_CHANNEL_ID }}
           ALIAS_PASS: ${{ secrets.BDUSS }}
           FILE_DIR: ${{ secrets.FILE_DIR }}
-      run: ./app/post.sh
+      run: |
+          chmod 777 ./app/post.sh
+          ./app/post.sh
