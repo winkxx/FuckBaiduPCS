@@ -1,6 +1,6 @@
 # FuckBaiduPCS
 
-使用 Github actoins 脚本并利用 [BaiduPCS-Go](https://github.com/iikira/BaiduPCS-Go) 下载百度网盘的文件，然后将其推送到 Telegram 群组。
+使用 Github actions 脚本并利用 [BaiduPCS-Go](https://github.com/iikira/BaiduPCS-Go) 下载百度网盘的文件，然后将其推送到 Telegram 群组。
 
 > 注意：经过实测发现即使使用 Github 的服务器下载，效果也不尽人意，大概在 100kb/s 左右，请按需使用，请勿传播。
 >
