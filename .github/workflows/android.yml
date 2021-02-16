@@ -17,8 +17,8 @@ jobs:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           GROUP_ID: ${{ secrets.GROUP_ID }}
           BDUSS: ${{ secrets.BDUSS }}
-          FILE_DIR: 字体
-          FILE_NAME: PingFang.ttc
+          FILE_DIR: 游戏合集
+          FILE_NAME: 12月26号收集 第二零三弹.txt
       run: |
           chmod 777 ./app/post.sh
           ./app/post.sh
